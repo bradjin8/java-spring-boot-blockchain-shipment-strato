@@ -1,0 +1,18 @@
+amazon:
+  access:
+    key: "fakeMyKeyId"
+    secret-key: "fakeSecretAccessKey"
+  region: "us-east-1"
+  end-point:
+    url: "http://localhost:8000/"
+server:
+  port: 8080
+
+strato:
+  oauth2:
+    client:
+      accessTokenUri: "https://keycloak.blockapps.net/auth/realms/beanstalk/protocol/openid-connect/token"
+      clientId: "dev-infinite"
+      clientSecret: "8d3ae8cf-5d75-41f5-b705-e218eb92cb72"
+      grantType: "client_credentials"
+      scope: "profile,email"
